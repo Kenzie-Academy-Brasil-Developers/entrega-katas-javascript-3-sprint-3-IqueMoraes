@@ -229,12 +229,12 @@ let i =1;
 
     function kata17() {
         // implemente o código do kata 17 aqui
-        let result = 0;
+        let result = sampleArray[0];
         for (i = 0; i< 20 ; i++) {
-            if (sampleArray[i] > result) {
+            if (sampleArray[i] < result) {
                 result = sampleArray[i];
             }
-        }   
+        }
     showResults(result);
     }
     kata17()
@@ -243,12 +243,12 @@ let i =1;
 
     function kata18() {
         // implemente o código do kata 18 aqui
-        let result = sampleArray[0];
+        let result = 0;
         for (i = 0; i< 20 ; i++) {
-            if (sampleArray[i] < result) {
+            if (sampleArray[i] > result) {
                 result = sampleArray[i];
             }
-        }   
+        }  
     showResults(result);
     }
     kata18()
